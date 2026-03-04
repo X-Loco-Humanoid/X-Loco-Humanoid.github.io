@@ -16,7 +16,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 20px; /* 两张图片之间的间距 */
+      gap: 20px;
       margin-top: 10px;
     }
     .image-container img {
@@ -79,13 +79,7 @@
 </style>
 
 
-
-
-
-
-
   <meta charset="utf-8">
-
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
@@ -94,7 +88,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/image.png">
+  <link rel="icon" href="./static/images/x_loco.png">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -104,77 +98,54 @@
 </head>
 <body>
 
-
-
-
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Towards Adaptive Humanoid Control via Multi-Behavior Distillation and Reinforced Fine-Tuning</h1>
-          <div style="text-align: center; font-size: 1.5rem; margin-top: 1em;">
-            🎉 AAAI 2026 Oral
-          </div>
+          <h1 class="title is-1 publication-title">X-Loco: Towards Generalist Humanoid Locomotion Control via Synergetic Policy Distillation</h1>
+
           <div class="is-size-5 publication-authors">
             <span class="author-block">
             <!-- <a>Anonymous</a></span> -->
             <span class="author-block">
-              <a href="#">Yingnan Zhao</a><sup>1</sup>,</span>
+              <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=iDv038AAAAAJ">Dewei Wang</a><sup>1,2</sup>,
             <span class="author-block">
-              <a href="#">Xinmiao Wang</a><sup>1,2</sup>,
+              <a href="#">Xinmiao Wang</a><sup>2,3</sup>,
             </span>
             <span class="author-block">
-              <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=iDv038AAAAAJ">Dewei Wang</a><sup>2,3</sup>,
+              <a href="https://github.com/chenyunzhanggit">Chenyun Zhang</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="#">Xinzhe Liu</a><sup>2,4</sup>,
+              <a href="https://scholar.google.com/citations?user=aVte5j4AAAAJ&hl=zh-CN">Jiyuan Shi</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="#">Dan Lu</a><sup>1†</sup>,
+              <a href="#">Yingnan Zhao</a><sup>3</sup>,
             </span>
             <br>
             <span class="author-block">
-              <a href="#">Qilong Han</a><sup>1</sup>,
-            </span>
-            <span class="author-block">
-              <a href="#">Peng Liu</a><sup>5</sup>,
-            </span>
-            <span class="author-block">
               <a href="https://baichenjia.github.io/">Chenjia Bai</a><sup>2†</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=ahUibskAAAAJ&hl=zh-CN">Xuelong Li</a><sup>2†</sup>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>College of Computer Science and Technology, Harbin Engineering University</span>
+            <span class="author-block"><sup>1</sup>School of Information Science and Technology, University of Science and Technology of China</span>
             <span class="author-block"><sup>2</sup>Institute of Artificial Intelligence (TeleAI), China Telecom</span>
-            <span class="author-block"><sup>3</sup>School of Information Science and Technology, University of Science and Technology of China</span>
-            <span class="author-block"><sup>4</sup>School of Information Science and Technology, ShanghaiTech University</span>
-            <span class="author-block"><sup>5</sup>College of Computer Science and Technology, Harbin Institute of Technology</span>
+            <span class="author-block"><sup>3</sup>College of Computer Science and Technology, Harbin Engineering University</span>
           </div>
 
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>†</sup>Corresponding Authors</span>
           </div>
 
-
-          <!-- <div class="image-container">
-            <img src="./static/images/ustc.png" alt="图片3">
-            
-            <img src="./static/images/teleai.png" alt="图片1">
-            
-            
-            <img src="./static/images/Harbin_Engineering_University_logo.svg" alt="图片4">
-            <img src="./static/images/Logo_of_ShanghaiTech_University.svg" alt="图片2">
-          </div> -->
-
-
-
           <div class="column has-text-centered">
             <div class="publication-links">
 
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2511.06371"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -182,15 +153,14 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Code Link. -->
               <span class="link-block">
-                <a href=""
+                <a target="_blank" href="./static/view.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                      <i class="fab fa-github"></i>
+                      <i class="fas fa-file-pdf"></i>
                   </span>
-                  <span>Code (coming soon...)</span>
-                </a>
+                    <span>Paper</span>
+                  </a>
               </span>
               
             </div>
@@ -208,30 +178,11 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
-        <!-- <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
-                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div> -->
-        <!-- <div class="content has-text-centered">
-          <video id="replay-video"
-                 preload
-                 autoplay loop playsinline controls
-                 width="75%">
-            <source src="./static/videos/eng.mp4"
-                    type="video/mp4">
-          </video> -->
           <video src="./static/videos/overview.mp4"  autoplay loop playsinline controls width="75%"></video>
           
       </div>
     </div>
-
-
-
-
-
   </div>
-
-
 
   <div class="container is-max-desktop">
     <!-- Abstract. -->
@@ -239,8 +190,13 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <p>
-            Humanoid robots are promising to learn a diverse set of human-like locomotion behaviors, including standing up, walking, running, and jumping. However, existing methods predominantly require training independent policies for each skill, yielding behavior-specific controllers that exhibit limited generalization and brittle performance when deployed on irregular terrains and in diverse situations. To address this challenge, we propose <em>Adaptive Humanoid Control (AHC)</em> that adopts a two-stage framework to learn an adaptive humanoid locomotion controller across different skills and terrains. Specifically, we first train several primary locomotion policies and perform a multi-behavior distillation process to obtain a basic multi-behavior controller, facilitating adaptive behavior switching based on the environment. Then, we perform reinforced fine-tuning by collecting online feedback in performing adaptive behaviors on more diverse terrains, enhancing terrain adaptability for the controller. We conduct experiments in both simulation and real-world experiments in Unitree G1 robots. The results show that our method exhibits strong adaptability across various situations and terrains.
+          <p style="text-indent: 2em;">
+            While recent advances have demonstrated strong performance in individual humanoid skills such as upright locomotion, fall recovery and whole-body coordination, learning a single policy that masters all these skills remains challenging due to the diverse dynamics and conflicting control objectives involved.
+            To address this, we introduce X-Loco, a framework for training a vision-based generalist humanoid locomotion policy.
+            X-Loco trains multiple oracle specialist policies and adopts a synergetic policy distillation with a case-adaptive specialist selection mechanism, which dynamically leverages multiple specialist policies to guide a vision-based student policy. This design enables the student to acquire a broad spectrum of locomotion skills, ranging from fall recovery to terrain traversal and whole-body coordination skills. 
+            To the best of our knowledge, X-Loco is the first framework to demonstrate vision-based humanoid locomotion that jointly integrates upright locomotion, whole-body coordination and fall recovery, while operating solely under velocity commands without relying on reference motions.
+            Experimental results show that X-Loco achieves superior performance, demonstrated by tasks such as fall recovery and terrain traversal.
+            Ablation studies further highlight that our framework effectively leverages specialist expertise and enhances learning efficiency.
           </p>
         </div>
       </div>
@@ -254,36 +210,26 @@
         <div class="column is-four-fifths">
           <h2 class="title is-3">Method</h2>
           <div style="display: flex; justify-content: center; align-items: center;">
-            <img style="max-width: 100%; height: auto;" src="./static/images/method.jpg" alt="图片1">
+            <img style="max-width: 100%; height: auto;" src="./static/images/method.png" alt="图片1">
           </div>
-          
+          <div class="content has-text-justified">
+            <p style="text-indent: 2em;">
+              We introduce the pipeline of the X-Loco framework as shown in above figure. We first train three specialist policies: upright locomotion $\pi_{l}$, 
+              fall recovery $\pi_{r}$, and whole-body coordination $\pi_{w}$. Subsequently, we propose a synergetic policy distillation to effectively consolidate these specialized capabilities into a single generalist policy $\pi_g$.
+              Experimental results show that X-Loco achieves superior performance, demonstrated by tasks such as fall recovery and terrain traversal.
+              Ablation studies further highlight that our framework effectively leverages specialist expertise and enhances learning efficiency.
+            </p>
         </div>
       </div>
-
-
       <br>
 
-
 </section>
-
-
-
-
-
-
-
-
 
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@inproceedings{zhao2025adaptivehumanoidcontrolmultibehavior,
-      title={Towards Adaptive Humanoid Control via Multi-Behavior Distillation and Reinforced Fine-Tuning},
-      author={Yingnan Zhao and Xinmiao Wang and Dewei Wang and Xinzhe Liu and Dan Lu and Qilong Han and Peng Liu and Chenjia Bai},
-      booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-      year={2026}
-    }
+    <pre><code>
 </code></pre>
   </div>
 </section>
@@ -298,12 +244,7 @@
           <p>
             This website is adapted from <a rel="license"
             href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, licensed under a <a rel="license"
-            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-Commons Attribution-ShareAlike 4.0 International License</a>.    
-            
-            
-            
-
+            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.    
           </p>
 
         </div>
